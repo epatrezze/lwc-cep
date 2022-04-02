@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/epatrezze.lwc-l1idq0pe",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve 9i7O54js6ROKQjXpamOV --open"
+  }
+}

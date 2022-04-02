@@ -1,0 +1,22 @@
+<template>
+
+  <div class="slds-p-around_medium lgc-bg">
+    <lightning-input type="text" 
+										 label="CEP:"
+										 placeholder='00000-000'
+										 onchange={recuperarCEP}>
+		</lightning-input>
+  </div>
+
+	<div>
+		<template if:true={viewData}>
+			  <div class="slds-p-around_medium lgc-bg">
+					<p>Logradouro: {viewData.logradouro}</p>
+					<p>Bairro: {viewData.bairro}</p>
+					<p>Cidade: {viewData.localidade}</p>
+					<p>Estado: {viewData.uf}</p>
+				</div>
+			
+		</template>
+	</div>
+</template>
